@@ -1,7 +1,7 @@
 // Fila de duas pontas (double-ended queue)
 // Podemos dizer que Deque combina a estrutura de dados de fila e de pilha
 
-class Deques {
+export class Deques {
   constructor() {
     this.count = 0;
     this.lowestCount = 0;
